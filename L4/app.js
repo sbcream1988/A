@@ -1,3 +1,5 @@
+// 이 파일은 node.js에서 실행 안됨 웹브라우저에서 가능
+
 console.log("hello")
 // console.log(document)
 // document=html
