@@ -5,10 +5,11 @@ Given 2 numbers, "isGreaterThan" returns whether num2 is greater than num1.
 (두 숫자가 주어졌을때, "isGreaterThan" 함수는 두번째 숫자(num2))가 숫자(num1)보다 큰지 반환해야 하빈다.)
 */
 
-let ouput = isGreaterThan(11, 10);
+let output = isGreaterThan(11, 10);
 console.log(output); // false
 
 function isGreaterThan(num1, num2) {
-  // TODO
-  return;
+  if(num2>num1){
+    return true
+  }else {return false}  // TODO
 }
