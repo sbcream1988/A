@@ -10,7 +10,9 @@
     - git commit -m "git 메모내용" : 
     - git push origin master : remote master에 추가
     - git pull origin master : remote master에서 로컬로 가져옴
-    - git remote add origin 주소 : remote주소를 origin이름으로 연결
+    - git remote add origin 주소 : remote주소를 origin이름(별명)으로 연결
+
+    - git 
 
 ```
 console.log('hello,world')
