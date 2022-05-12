@@ -1,6 +1,7 @@
-# 22.05.05
+># 22.05.05
 - Node.js 설치
     - npm, node
+    ---
 - Git for Window 설치
     - Git Bash
     - git clone 주소
@@ -12,8 +13,13 @@
     - git pull origin master : remote master에서 로컬로 가져옴
     - git remote add origin 주소 : remote주소를 origin이름(별명)으로 연결
 
-    - git 
 
-```
+```js
 console.log('hello,world')
 ```
+># git remote에 추가 순서
+---
+    - $git status
+    - $git add 경로/파일명(.=현재폴더)
+    - $git commit -m "메모내용" :메모
+    - $git push origin master : remote origin(별명)에 추가
