@@ -16,3 +16,14 @@ console.log(output); // --> true
 //   return true
 // }
 // }
+
+// comment
+/*
+
+위 코드 
+이건 왜? 지웠지?  맞는거 같은데...
+
+아래 코드 
+?? 이런 한 조건일때는 true
+?? 이러한 조건일때는 false (여기가 없음)
+*/

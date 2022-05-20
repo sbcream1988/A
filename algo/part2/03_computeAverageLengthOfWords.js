@@ -9,5 +9,7 @@ console.log(output); // --> 6
 
 function computeAverageLengthOfWords(word1, word2) {
   // TODO
-  return (word1.length + word2.length) / 2 ;
+  return (word1.length + word2.length) / 2;
 }
+
+// comment Good

@@ -9,8 +9,10 @@ console.log(output); // --> true
 
 function areValidCredentials(name, password) {
   // TODO
-  if (name.length > 3 && password.length >= 8)
-  return true
+  if (name.length > 3 && password.length >= 8) return true;
   else {
-    return false}
+    return false;
+  }
 }
+
+// comment Good

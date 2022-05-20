@@ -12,6 +12,11 @@ let output = or(true, false);
 console.log(ouput); // --> true;
 
 function or(expression1, expression2) {
-  if (expression1=true)
-  return 
+  if ((expression1 = true)) return;
 }
+
+// comment
+/*
+1. 문제에서 param이 2개 이상 주어졌으니 사용하시도록
+2. = 과 ===의 차이점은?
+*/
