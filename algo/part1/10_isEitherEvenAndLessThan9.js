@@ -17,5 +17,10 @@ console.log(output2); // -> false
 
 function isEitherEvenAndLessThan9(num1, num2) {
   // 여기에 코드를 작성하세요
-  return;
+  if(num1%2 ===0 || num2%2 ===0)
+  if(num1 < 9 && num2 < 9){
+    return true
+  }else{
+    return false
+  }
 }

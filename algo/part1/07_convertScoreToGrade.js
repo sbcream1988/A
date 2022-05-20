@@ -30,7 +30,50 @@ Notes:
     70 < score && score < 80
 */
 
-function convertScoreToGrade(scroe) {
-  // 여기에 코드를 작성하세요
-  return;
-}
+// function convertScoreToGrade(score) {
+//   // 여기에 코드를 작성하세요
+//   if (score > 100 || score < 0){
+//     return "'INVALID SCORE'"
+//   }else if (90 <= score && score <= 100){
+//     return "'A'"
+//   }else if (80 <= score ){
+//     return "'B'"
+//   }else if (70 <= score && score < 80){
+//     return "'C'"
+//   }else if (60 <= score && score < 70){
+//     return "'D'"
+//   }else if (0 <= score && score < 60){
+//     return "'F'"
+//   }
+// }
+
+let output = convertScoreToGrade(10);
+    console.log(output); // --> 'A'
+
+    // function convertScoreToGrade(score) {
+    //   // 여기에 코드를 작성하세요
+    //   if (score > 100 || score < 0){
+    //     return "'INVALID SCORE'"
+    //   }else if (80 <= score ){
+    //     return "'B'"
+    //   }else if (90 <= score && score <= 100){
+    //     return "'A'"
+    //   }
+    // }
+    
+    function convertScoreToGrade(score) {
+        // 여기에 코드를 작성하세요
+        if (score > 100 || score < 0){
+          return "'INVALID SCORE'"
+        }else if (90 <= score && score <= 100){
+          return "'A'"
+        }else if (80 <= score ){
+          return "'B'"
+        }else if (70 <= score ){
+          return "'C'"
+        }else if (60 <= score ){
+          return "'D'"
+        }else {
+          return "'F'"
+        }
+      }

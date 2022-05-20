@@ -17,5 +17,5 @@ console.log(output3); // --> 3.141592
 
 function convertToNumber(anything) {
   // TODO
-  return;
+  console.log(convertToNumber)
 }

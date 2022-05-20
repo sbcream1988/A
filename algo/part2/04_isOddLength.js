@@ -6,7 +6,13 @@ Given a word, "isOddLength" returns whether the length of the given word is odd.
 let output = isOddLength('special');
 console.log(output); // --> true
 
-function isOddLength(word) {
-  // TODO
-  return;
-}
+// function isOddLength(word) {
+//   // TODO
+//   return (word.length) %2 ===1;
+// }
+
+// function isOddLength(word){
+// if((word.length) %2 ===1){
+//   return true
+// }
+// }

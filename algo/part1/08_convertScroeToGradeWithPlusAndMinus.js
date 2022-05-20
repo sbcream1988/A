@@ -13,11 +13,6 @@ Notes:
     - F+ 와 F-는 존재하지 않습니다.
 
     */
-let output1 = convertScroeToGradeWithPlusAndMinus(91);
-console.log(output1); // ---> 'A-'
-
-let output2 = convertScoreToGrade(91);
-console.log(output2); // --> 'A'
 
 /*
    힌트 
@@ -28,7 +23,39 @@ console.log(output2); // --> 'A'
    
 
 */
-function convertScroeToGradeWithPlusAndMinus(scroe) {
-  // 여기에 코드를 작성하세요
-  return;
-}
+
+
+
+
+function convertScoreToGradePlusMinus(score) {
+  let Grade
+  if (score>100 || score<0){
+  return grade ="INVALID SCORE"  // 0점미만이거나 100점초과할경우
+}else if ( score >= 98  ){  //99점 이상일 경우 A+
+  return "A+"
+}else if ( score >= 90 ){
+  return grade = "A"//10의 자리가 9일경우 A
+}else if ( score >= 80 ){
+  return grade = "B"//10의 자리가 8일경우 B
+}else if ( score >= 70 ){
+  return grade ="C"//10의 자리가 7일경우 C
+}else if ( score >= 60 ){
+  return grade ="D"//10의 자리가 6일경우 D
+}else if (score < 60> ) {
+  return grade ="F";
+};//10의 자리가 5일경우 F
+function plusminusscore(score){}
+let plusminus = score % 10
+if( plusminus <=2 && plusminus >0){
+  return "-"//점수가 0-2 사이라면 등급과 함께 -를 반환
+}else if( plusminus <=9 && plusminus >=8){
+  return "+"//점수가 8-9 사이라면 등급과 함께 + 반환
+}else{
+  return convertScoreToGradePlusMinus + plusminusscore}" "//나머지 경우 " "
+ 
+
+let output1 = convertScoreToGradeWithPlusAndMinus(100);
+console.log(output1); // ---> 'A-'
+
+let output2 = convertScoreToGrade(91);
+console.log(output2); // --> 'A'

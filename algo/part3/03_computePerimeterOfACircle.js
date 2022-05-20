@@ -7,6 +7,7 @@ let output = computePerimeterOfACircle(4);
 console.log(output); // --> 25.132741228718345
 
 function computePerimeterOfACircle(radius) {
-  // TODO
-  return;
+  const pi = 3.141592 //???
+
+  return radius *2 * pi
 }

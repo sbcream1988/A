@@ -12,6 +12,6 @@ let output = or(true, false);
 console.log(ouput); // --> true;
 
 function or(expression1, expression2) {
-  // 여기에 코드를 작성하세요
-  return;
+  if (expression1=true)
+  return 
 }

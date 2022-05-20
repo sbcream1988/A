@@ -8,5 +8,5 @@ console.log(ouput); // --> false
 
 function isEvenLength(word) {
   // TODO
-  return;
+  return word.length % 2 === 0;
 }
