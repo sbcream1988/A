@@ -18,6 +18,5 @@ let output2 = getProperty(person, 'age');
 console.log(output2); // ---> 16
 
 function getProperty(obj, propertyName) {
-  // TODO
-  return;
+  return obj[propertyName]; //.?
 }

@@ -18,6 +18,10 @@ let output5 = getType([100, 200, 300]);
 console.log(output5); // ---> 'array'
 
 function getType(anything) {
-  // TODO
-  return;
+  if(typeof anything === object){
+    return object
+  }else if(typeof anything === array){
+    return array
+  }else{
+  return typeof anything}
 }

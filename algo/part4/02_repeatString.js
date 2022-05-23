@@ -10,5 +10,8 @@ console.log(output); // ===> 'codecodecode'
 
 function repeatString(string, num) {
   // TODO
-  return;
+  let re=0
+  for(let i=0; i < num; i=i+1){
+  console.log(string)}
+  return re//?????
 }

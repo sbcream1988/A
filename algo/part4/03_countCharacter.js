@@ -9,6 +9,9 @@ let output = countCharacter('I am a hacker', 'a');
 console.log(output); // ---> 3
 
 function countCharacter(stt, char) {
-  // TODO
-  return;
+  let 
+  for (let i=0; i>stt.length; i++){
+    if (stt[i] === char)
+    return();
+}
 }
