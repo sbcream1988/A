@@ -10,3 +10,5 @@ function isEvenLength(word) {
   // TODO
   return word.length % 2 === 0;
 }
+
+// comment Good

@@ -59,3 +59,14 @@ console.log(output1); // ---> 'A-'
 
 let output2 = convertScoreToGrade(91);
 console.log(output2); // --> 'A'
+
+
+// comment 
+/*
+55줄  닫는 중괄호 없음
+31줄 Grade 선언만 하고 쓰는거 없음 (return 뜻이 뭐지?)
+plusminusscore 는 바디(실행부)안에 아무것도 없네??
+함수 내에서 자기자신을 사용하는건 나 ~~ 주에 알게됨.
+어~딘가에서 보고 한거면 링크 남겨 놓길~
+
+*/

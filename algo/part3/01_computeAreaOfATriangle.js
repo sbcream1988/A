@@ -8,5 +8,7 @@ console.log(ouput); // --> 12
 
 function computeAreaOfATriangle(base, height) {
   // TODO
-  return base * height / 2
+  return (base * height) / 2;
 }
+
+// comment Good

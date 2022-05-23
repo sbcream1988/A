@@ -10,5 +10,11 @@ console.log(output); // -> 'Joe Smith'
 
 function getFullName(firstName, lastName) {
   // TODO
-  return "'" + firstName + " " + lastName + "'"
+  return "'" + firstName + ' ' + lastName + "'";
 }
+
+// comment
+/*
+9줄의 결과로 ' ' 가 붙은 이유는 String 이란걸 알려주려고 하는것임
+return 할때, " ' " 없어도 됨.
+*/

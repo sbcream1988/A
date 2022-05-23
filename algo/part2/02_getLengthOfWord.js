@@ -7,8 +7,8 @@ Given a word, "getLengthOfWord" returns the length of the given word
 let output = getLengthOfWord('some');
 console.log(output); // -> 4
 
-
 function getLengthOfWord(str) {
-  return str.length
+  return str.length;
 }
 
+// comment Good
