@@ -13,8 +13,11 @@ console.log(output3); // => 15
 
 function sum(n) {
   // TODO
-  let a = 0
-  for(let i = 0; i <= n; i++){
-    a = a+i}
-  return a
+  let a = 0;
+  for (let i = 0; i <= n; i++) {
+    a = a + i;
+  }
+  return a;
 }
+
+// comment Good

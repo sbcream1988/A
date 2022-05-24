@@ -18,10 +18,20 @@ let output5 = getType([100, 200, 300]);
 console.log(output5); // ---> 'array'
 
 function getType(anything) {
-  if(typeof anything === object){
-    return object
-  }else if(typeof anything === array){
-    return array
-  }else{
-  return typeof anything}
+  if (typeof anything === object) {
+    return object;
+  } else if (typeof anything === array) {
+    return array;
+  } else {
+    return typeof anything;
+  }
 }
+
+// Comment
+
+/*
+typeof 결과 타입은 무엇일까?
+
+hint
+Array.isArray(something)
+*/

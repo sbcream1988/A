@@ -20,3 +20,4 @@ console.log(output2); // ---> 16
 function getProperty(obj, propertyName) {
   return obj[propertyName]; //.?
 }
+// comment Good
