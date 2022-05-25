@@ -15,5 +15,9 @@ console.log(output); // ---> 4
 
 function getLastElement(array) {
   // TODO
-  return;
+  if(array.length === 0){//없어도 됨
+    return undefined
+  }else{
+  return array[array.length-1];}
 }
+

@@ -11,5 +11,8 @@ console.log(output); // ---> 6
 
 function computeSumOfAllElements(arr) {
   // TODO
-  return;
+  for(let i=0 ; i < arr.length ; i++ ){
+    
+  }
+  // return arr[i] ???더하기를...
 }

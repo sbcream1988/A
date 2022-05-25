@@ -9,5 +9,8 @@ console.log(output); // ---> 1
 
 function getFirstElement(array) {
   // TODO
-  return;
+  return array[0] 
 }
+
+
+// return [0] ??

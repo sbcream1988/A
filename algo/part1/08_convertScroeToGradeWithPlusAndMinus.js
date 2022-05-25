@@ -28,39 +28,42 @@ Notes:
 
 
 function convertScoreToGradePlusMinus(score) {
-  let Grade
+  let grade
   if (score>100 || score<0){
-  return grade ="INVALID SCORE"  // 0점미만이거나 100점초과할경우
-}else if ( score >= 98  ){  //99점 이상일 경우 A+
-  return "A+"
-}else if ( score >= 90 ){
-  return grade = "A"//10의 자리가 9일경우 A
-}else if ( score >= 80 ){
-  return grade = "B"//10의 자리가 8일경우 B
-}else if ( score >= 70 ){
-  return grade ="C"//10의 자리가 7일경우 C
-}else if ( score >= 60 ){
-  return grade ="D"//10의 자리가 6일경우 D
-}else if (score < 60> ) {
-  return grade ="F";
+    return grade ="INVALID SCORE"  // 0점미만이거나 100점초과할경우
+  }else if ( score >= 98  ){  //98점 이상일 경우 A+
+    return "A+"
+  }else if ( score >= 90 ){
+    grade = "A"//10의 자리가 9일경우 A
+  }else if ( score >= 80 ){
+    grade = "B"//10의 자리가 8일경우 B
+  }else if ( score >= 70 ){
+    grade ="C"//10의 자리가 7일경우 C
+  }else if ( score >= 60 ){
+    grade ="D"//10의 자리가 6일경우 D
+  }else if (score < 60  ) {
+    return grade ="F";
+  }
+  return grade + plusminusscore(score)
 };//10의 자리가 5일경우 F
-function plusminusscore(score){}
-let plusminus = score % 10
-if( plusminus <=2 && plusminus >0){
-  return "-"//점수가 0-2 사이라면 등급과 함께 -를 반환
-}else if( plusminus <=9 && plusminus >=8){
-  return "+"//점수가 8-9 사이라면 등급과 함께 + 반환
-}else{
-  return convertScoreToGradePlusMinus + plusminusscore}" "//나머지 경우 " "
- 
+function plusminusscore(score){
+  let plusminus = score % 10
+  if( plusminus <=2 ){
+    return "-"//점수가 0-2 사이라면 등급과 함께 -를 반환
+  }else if( plusminus <=9 && plusminus >=8){
+    return "+"//점수가 8-9 사이라면 등급과 함께 + 반환
+  }else{
+    return " "
+  }//나머지 경우 " "
+}
 
-let output1 = convertScoreToGradeWithPlusAndMinus(100);
+let output1 = convertScoreToGradePlusMinus(100);
 console.log(output1); // ---> 'A-'
 
-let output2 = convertScoreToGrade(91);
+let output2 = convertScoreToGradePlusMinus(91);
 console.log(output2); // --> 'A'
 
-
+console.log(typeof plusminusscore)
 // comment 
 /*
 55줄  닫는 중괄호 없음
@@ -70,3 +73,5 @@ plusminusscore 는 바디(실행부)안에 아무것도 없네??
 어~딘가에서 보고 한거면 링크 남겨 놓길~
 
 */
+
+// 

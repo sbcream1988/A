@@ -6,6 +6,7 @@ getType함수가 있습니다. 이 함수는 주어진 파라미터의 타입을
   배열과 객체는 어떻게 구분할수 있을까요?
   - 배열과 객체를 구분하려면 Array.isArray메소드를 사용하면 됩니다.
 */
+console.log(typeof typeof 1)
 let output1 = getType('hello');
 console.log(output1); // ---> 'string'
 let output2 = getType(10);
@@ -17,14 +18,26 @@ console.log(output4); // ---> 'object'
 let output5 = getType([100, 200, 300]);
 console.log(output5); // ---> 'array'
 
+// function getType(anything) {
+//   if(typeof anything === object){
+//     return object
+//   }else if(typeof anything === array){
+//     return array
+//   }else{
+//   return typeof anything}
+// }
+
 function getType(anything) {
-  if (typeof anything === object) {
-    return object;
-  } else if (typeof anything === array) {
-    return array;
-  } else {
-    return typeof anything;
-  }
+
+    if(typeof anything === 'object'){
+
+    if(Array.isArray(anything)){
+      return 'array'
+    }
+    return 'object'
+
+  }else{
+  return typeof anything}
 }
 
 // Comment
@@ -35,3 +48,8 @@ typeof 결과 타입은 무엇일까?
 hint
 Array.isArray(something)
 */
+
+
+
+// 뭔가 잘 안됨
+

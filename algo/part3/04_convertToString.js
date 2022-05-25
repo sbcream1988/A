@@ -17,5 +17,5 @@ console.log(output3); // --> 'treu
 function converToString(anything) {
   // TODO
 
-  return anything
+  return String(anything)
 }

@@ -10,11 +10,11 @@ console.log(output); // ===> 'codecodecode'
 
 function repeatString(string, num) {
   // TODO
-  let re = 0;
-  for (let i = 0; i < num; i = i + 1) {
-    console.log(string);
+  let a = ''
+  for(let i=0; i < num; i=i+1){
+   a = a + string
   }
-  return re; //?????
+  return a
 }
 // comment
 

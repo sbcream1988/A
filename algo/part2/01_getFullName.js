@@ -10,7 +10,7 @@ console.log(output); // -> 'Joe Smith'
 
 function getFullName(firstName, lastName) {
   // TODO
-  return "'" + firstName + ' ' + lastName + "'";
+  return firstName + ' ' + lastName ;
 }
 
 // comment

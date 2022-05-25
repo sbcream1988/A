@@ -9,13 +9,14 @@ let output = countCharacter('I am a hacker', 'a');
 console.log(output); // ---> 3
 
 function countCharacter(str, char) {
-  let 
-  for (let i=0; i>str.length; i++){
-    if (stt[i] === char)
-    return();
+   let counter = 0
+  for (let i=0; i < str.length; i++){
+    if (str[i] === char){
+     counter = counter +1 
+    }
+  }
+  return counter
 }
-}
-
 // comment
 
 /*
@@ -27,3 +28,4 @@ for문 조건에서 0부터 시작, 실행부가 실행되고나서 1씩 증가 
   0부터 시작하고, 1씩 증가하는데, i가 str.length(13) 보다 큰 경우가 있을까?
   
 */
+ 

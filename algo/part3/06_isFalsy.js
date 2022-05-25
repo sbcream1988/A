@@ -19,9 +19,14 @@ let output5 = isFalsy(NaN);
 console.log(output5); //--> true
 
 let output6 = isFalsy('');
-console.log(output6); //--> true
+console.log(output6); //--> true 
 
 function isFalsy(anything) {
   // TODO
-  return;
+  if(anything){
+    return false
+  }else{
+    return true
+  }
 }
+
