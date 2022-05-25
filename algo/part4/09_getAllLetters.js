@@ -11,5 +11,9 @@ console.log(output); // ---> ['R','a','d','a','g','a','s','t']
 
 function getAllLetters(str) {
   // TODO
-  return;
+  let arr = []
+  for(let i=0 ; i < str.length ; i++){
+    arr.push(str[i])
+  }
+  return arr
 }

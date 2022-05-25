@@ -8,10 +8,12 @@ Given a string input and a character, "countCharacter" returns the number of occ
 let output = countCharacter('I am a hacker', 'a');
 console.log(output); // ---> 3
 
-function countCharacter(stt, char) {
-  let 
-  for (let i=0; i>stt.length; i++){
-    if (stt[i] === char)
-    return();
-}
+function countCharacter(str, char) {
+  let counter = 0
+  for (let i=0; i < str.length; i++){
+    if (str[i] === char){
+     counter = counter +1 
+    }
+  }
+  return counter
 }

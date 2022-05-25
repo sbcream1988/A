@@ -8,15 +8,15 @@ console.log(output); // --> true
 
 function isOddLength(word) {
   // TODO
-  return (word.length) %2 ===1;
+  return word.length %2 ===1;
 }
 
 function isOddLength(word){
-if((word.length) %2 ===1){
-  return true
-}else{
+  if(word.length %2 ===1){
+    return true
+  }else{
     return false
-}
+  }
 }
 
 // comment

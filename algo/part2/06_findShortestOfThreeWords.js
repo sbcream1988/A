@@ -7,20 +7,34 @@ Notes:
     만약 동률이 있다면 그 중 앞에 있는 문자열을 반환해야 합니다.
 */
 
-let output = findShortestOfThreeWords('a', 'two', 'three');
+let output = findShortestOfThreeWords( 'two', 'three' , 'a');
 console.log(output); // --> 'a'
+
+// function findShortestOfThreeWords(word1, word2, word3) {
+//   // TODO
+//   if (word1.length <= word2.length) {
+//     return word1;
+//   }
+//   if (word1.length <= word3.length) {
+//     return word1;
+//   }
+//   if (word2.length <= word3.length) {
+//     return word2;
+//   } else {
+//     return word3;
+//   }
+// } 잘못된
 
 function findShortestOfThreeWords(word1, word2, word3) {
   // TODO
+  let shortest
   if (word1.length <= word2.length) {
-    return word1;
-  }
-  if (word1.length <= word3.length) {
-    return word1;
-  }
-  if (word2.length <= word3.length) {
-    return word2;
-  } else {
+    shortest = word1;
+  }else{
+    shortest = word2;
+  }if (shortest <= word3.length) {
+    return shortest;
+  }else {
     return word3;
   }
 }
