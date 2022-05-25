@@ -16,3 +16,11 @@ function repeatString(string, num) {
   }
   return a
 }
+// comment
+
+/*
+HINT 
+
+2 + 3 => 5
+"H"+"E"+"L"+"L"+"O" => "HELLO"
+*/

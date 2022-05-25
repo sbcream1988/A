@@ -28,7 +28,8 @@ console.log(output5); // ---> 'array'
 // }
 
 function getType(anything) {
-  if(typeof anything === 'object'){
+
+    if(typeof anything === 'object'){
 
     if(Array.isArray(anything)){
       return 'array'
@@ -39,4 +40,16 @@ function getType(anything) {
   return typeof anything}
 }
 
+// Comment
+
+/*
+typeof 결과 타입은 무엇일까?
+
+hint
+Array.isArray(something)
+*/
+
+
+
 // 뭔가 잘 안됨
+
