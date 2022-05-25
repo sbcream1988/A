@@ -23,5 +23,6 @@ console.log(output6); //--> true
 
 function isFalsy(anything) {
   // TODO
+  if()
   return;
 }

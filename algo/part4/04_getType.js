@@ -25,3 +25,5 @@ function getType(anything) {
   }else{
   return typeof anything}
 }
+
+// 뭔가 잘 안됨

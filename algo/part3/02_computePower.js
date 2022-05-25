@@ -9,5 +9,5 @@ console.log(ouput); // --> 8
 
 function computePower(num, exponent) {
   // TODO
-  return;
+  return 
 }

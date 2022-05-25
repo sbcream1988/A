@@ -15,7 +15,7 @@ function findShortestOfThreeWords(word1, word2, word3) {
   if (word1.length <= word2.length) {
     return word1;
   }
-  if (shortest <= word3.length) {
+  if (word1.length <= word3.length) {
     return word1;
   }
   if (word2.length <= word3.length) {
@@ -27,7 +27,7 @@ function findShortestOfThreeWords(word1, word2, word3) {
 
 // comment
 /*
-19 줄 shortest는 선언 하지 않았는데 사용하고 있네.
+19 줄 shortest는 선언 하지 않았는데 사용하고 있네. word1.length =shortest 선언 했다가 다시 지우고 실행해보고 지우고 하다가 남겨진거
 
 참고: 조건문은 위에서 부터 순서대로 읽다가 조건에 맞는거 1개(실행부) 실행하면 조건문 실행은 끝나고 다음 줄(25줄)로 넘어간다.
 

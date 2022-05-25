@@ -52,7 +52,7 @@ if( plusminus <=2 && plusminus >0){
   return "+"//점수가 8-9 사이라면 등급과 함께 + 반환
 }else{
   return convertScoreToGradePlusMinus + plusminusscore}" "//나머지 경우 " "
- 
+}
 
 let output1 = convertScoreToGradeWithPlusAndMinus(100);
 console.log(output1); // ---> 'A-'
@@ -70,3 +70,5 @@ plusminusscore 는 바디(실행부)안에 아무것도 없네??
 어~딘가에서 보고 한거면 링크 남겨 놓길~
 
 */
+
+// 

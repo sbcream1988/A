@@ -15,5 +15,8 @@ console.log(output); // ---> 3
 
 function getNthElement(array, n) {
   // TODO
-  return;
+  if(array.length === 0 ){
+    return undefined
+  }else{
+  return array[n]}
 }
