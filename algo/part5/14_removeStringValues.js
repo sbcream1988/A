@@ -15,5 +15,5 @@ console.log(obj); // ----> {age: 20}
 
 function removeStringValue(obj) {
   // TODO
-  return;
+  return 
 }

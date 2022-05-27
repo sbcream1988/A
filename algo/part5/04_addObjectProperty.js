@@ -36,6 +36,6 @@ console.log(person1);
 }
 */
 function addObjectProperty(obj1, propertyName, obj2) {
-  // TODO
-  return;
+  // TODO 보류
+  return 
 }

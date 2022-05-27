@@ -16,5 +16,5 @@ console.log(obj.name); // ---> undefined
 
 function removeProperty(obj, propertyName) {
   // TODO
-  return;
+  return delete obj[propertyName]
 }

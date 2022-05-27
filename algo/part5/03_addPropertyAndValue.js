@@ -17,5 +17,5 @@ console.log(jessica.job); // ---> 'Programmer'
 
 function addProperty(obj, propertyName, value) {
   // TODO
-  return;
+  return obj[propertyName] = value
 }

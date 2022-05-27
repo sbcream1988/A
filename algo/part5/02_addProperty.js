@@ -16,6 +16,5 @@ addProperty(jessica, 'isSmart');
 console.log(jessica.isSmart); // ---> true
 
 function addProperty(obj, propertyName) {
-  // TODO
-  return;
+   return obj[propertyName]=true
 }
