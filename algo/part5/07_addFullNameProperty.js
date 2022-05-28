@@ -18,5 +18,5 @@ console.log(person.fullName); // --> 'Jade Smith'
 
 function addFullNameProperry(obj) {
   // TODO
-  return
+  return obj["fullName"] = obj["firstName"] + " "+ obj["lastName"]
 }

@@ -18,3 +18,5 @@ function removeProperty(obj, propertyName) {
   // TODO
   return delete obj[propertyName]
 }
+
+

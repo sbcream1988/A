@@ -28,5 +28,9 @@ console.log(obj2); // ---> {b: 4, c: 3}
 
 function extend(obj1, obj2) {
   // TODO
-  return;
+  for(key in obj2){
+   if(obj1[key] === undefined){
+     obj1[key] = obj2[key] 
+   }
+  }
 }

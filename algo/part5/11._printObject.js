@@ -15,12 +15,12 @@ printObject 함수를 작성하세요
 
 */
 
-let obj = { name: 'Steve', age: 18, gender: 'Male' };
+let obj = { name: 'Stev', age: 18, gender: 'Male' };
 let output = printObject(obj);
 console.log(output);
 /*
 name: Steve
-age: 19
+age: 18
 gender: Male
 
 */
@@ -33,5 +33,13 @@ name: Steve₩nage: 18₩ngenger: Male₩n
 
 function printObject(obj) {
   // TODO
-  return;
+  let result = ""
+  for ( key in obj){
+    // console.log(key) 
+    // console.log(obj[key])
+    // result = result + key + ": " + obj[key] + "\n" 
+    result = `${result}${key}: ${obj[key]}\n`
+  }
+  return result
 }
+

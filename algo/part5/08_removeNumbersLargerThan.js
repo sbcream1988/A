@@ -17,5 +17,10 @@ console.log(obj); // {b:2,c:'montana'}
 
 function removeNumbersLargerThan(num, obj) {
   // TODO
-  return;
+  for(key in obj){
+    if ( obj[key]> num){
+    delete obj[key];
+   }
+   }
+   return
 }

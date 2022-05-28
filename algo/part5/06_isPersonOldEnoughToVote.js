@@ -21,7 +21,7 @@ console.log(output); // ---> true
 
 function isPersonOldEnoughToVote(person) {
   // TODO
-  if(person["age"] >= 19){
+  if(person["age"] >= 18){
     return true
   }else{ 
     return false;

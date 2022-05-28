@@ -16,5 +16,12 @@ console.log(output); // ---> 3
 
 function countNumberOfKeys(obj) {
   // TODO
-  return;
+  let count=0 
+  for(key in obj){
+    count++
+  }
+  return count
 }
+
+console.log("keys",Object.keys(obj))
+console.log("values",Object.values(obj))
