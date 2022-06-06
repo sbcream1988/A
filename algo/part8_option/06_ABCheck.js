@@ -20,5 +20,9 @@ hint : lowcase , uppercase
 
 function ABCheck(str) {
   //TODO
-  return;
-}
+  for (let i=0; i<String.length; i++){
+    if (str[i] ==='a' && str[i] -4 === "b")
+    return true;
+  } 
+    return false;
+  }

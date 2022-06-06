@@ -4,3 +4,5 @@ In this exercise, a string is passed to a method and a new string has to be retu
 
 */
 firstCharactr('I am a boy, You are a girl.'); // "IaabYaag"
+
+

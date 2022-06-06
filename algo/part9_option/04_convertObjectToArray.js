@@ -15,5 +15,9 @@ Note that the input may have a different number of keys and values than the give
 
 function listAllValues(obj) {
   //TODO
-  return;
+  let arr=[]
+  for (prop in obj){
+    arr.push(obj[prop])
+  }
+  return arr
 }

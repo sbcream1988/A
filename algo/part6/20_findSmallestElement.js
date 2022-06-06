@@ -15,5 +15,6 @@ console.log(outfindSmallestElementput); // --> 1
 
 function findSmallestElement(arr) {
   // TODO
+  
   return;
 }

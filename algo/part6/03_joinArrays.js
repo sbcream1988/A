@@ -13,9 +13,16 @@ console.log(output); // ---> [1,2,3,4]
 /*
 You should familiar with the "concat" method for the problem
 위 문제를 해열하기 위해서는 "concat"메소드에 익숙하셔야 합니다.
+
+MDN : concat() 메서드는 인자로 주어진 배열이나 값들을 기존 배열에 합쳐서 새 배열을 반환합니다
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
 */
 
 function joinArrays(arr1, arr2) {
   // TODO
-  return;
+let arr3
+arr3 = arr1.concat(arr2)
+  return arr3
 }

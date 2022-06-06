@@ -5,6 +5,8 @@
 findMissingNumber('1 6 2 4 3'); // 5
 
 let findMissingNumber = function (str) {
-  // TODO
+  for(let i=0; i<str; i++){
+    if( )
+  }
   return;
 };

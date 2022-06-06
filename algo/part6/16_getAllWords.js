@@ -14,5 +14,10 @@ console.log(output); // --> ['Radagast', 'the', 'Brown']
 
 function getAllWirds(str) {
   //TODO
-  return;
+  let arr=[]
+  for ( let i = 0 ; i < str.legnth ; i++){
+    if(str === ''){
+      return arr
+  }
+}
 }

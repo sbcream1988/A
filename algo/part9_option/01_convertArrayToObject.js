@@ -30,6 +30,11 @@ console.log(input2); // ['프로도', '무지', '어피치', '튜브', '제이�
 console.log(output2); // { 프로도: '라이언'}
 
 function transformFirstAndLast(arr) {
+  let obj = {}
+  obj[arr[0]]=arr[arr.length-1]
+  return obj;
   // TODO
-  return;
+  
 }
+
+

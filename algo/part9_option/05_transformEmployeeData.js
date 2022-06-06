@@ -31,5 +31,9 @@ console.log(output);
 
 function transformEmployeeData(array) {
   // TODO
+  let arr = []
+  for (let i=0; i < arr.length; i++){
+    
+  }
   return;
 }

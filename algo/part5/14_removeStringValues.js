@@ -10,10 +10,18 @@ let obj = {
   name: 'Sam',
   age: 20,
 };
-removeStringValues(obj);
+
+removeStringValue(obj);
 console.log(obj); // ----> {age: 20}
 
 function removeStringValue(obj) {
   // TODO
-  return 
+  for(let value in obj)
+  if (typeof obj[value] === "string"){
+    delete obj[value]
+  }
+  return obj
 }
+
+
+//https://jjtil.netlify.app/tutorial/2019-11-14-javascript-daliy-coding-level-1/#removestringvalues

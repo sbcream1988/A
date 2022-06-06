@@ -16,5 +16,7 @@ console.log(output); // --> [1,2,3]
 
 function addToBackNew(array, element) {
   // TODO
-  return;
+  let array2 = array.slice()
+  array2.push(element)
+  return array2
 }

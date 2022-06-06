@@ -14,5 +14,8 @@ console.log(output2); // ---> true
 
 function isOdd(num) {
   //TODO
-  return;
+  if(num % 2 !==0){
+    return true
+  }else{
+    return false}
 }

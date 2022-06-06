@@ -10,3 +10,8 @@ numberSearch('Hello6 9World 2, Nic8e D7ay!'); // 2
 32 / 17 = 1.882
 반올림 하면 2
 */
+
+
+function search(number){
+    if 
+}

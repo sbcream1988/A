@@ -16,5 +16,14 @@ console.log(output); // --> [2, 2]
 
 function keep(array, keeper) {
   // TODO
+  if(array=[]){
+    return array; //만약 아무것도 일치하지 않는다면, "keep" 함수는 빈 배열을 반환해야 합니다.
+  }
+  let array2 = [];
+  for(let i=0; i < array.length; i++){
+    if (array[i] === keeper){
+      array2.push(array[i]);
+    }
+  }
   return;
 }

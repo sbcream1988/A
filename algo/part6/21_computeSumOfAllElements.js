@@ -12,7 +12,11 @@ Given an array of numbers, "computeSumOfAllElements" returns the sum of all the 
 let output = computeSumOfAllElements([1, 2, 3]);
 console.log(output); // --> 6
 
-function computeSumOfAllElements() {
-  // TODO
-  return;
+function computeSumOfAllElements(arr) {
+  // TODOf
+  let sum=0
+  for(let i=0 ; i < arr.length ; i++ ){
+    sum = sum + arr[i]
+  }
+  return sum
 }

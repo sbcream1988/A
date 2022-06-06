@@ -15,7 +15,10 @@ let output = addToFrontOfNew(input, 3);
 console.log(output); // -->[3,1,2]
 console.log(input); // --> [1,2]
 
-function addToFrontOfNew(arr, elemen) {
+function addToFrontOfNew(arr, element) {
   //TODO
-  return;
+  let array2 = arr.slice()
+  array2.unshift(element)
+
+  return array2
 }

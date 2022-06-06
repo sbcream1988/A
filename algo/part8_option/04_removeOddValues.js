@@ -15,5 +15,10 @@ removeOddValues({ a: 1, b: 2, c: 8 }); // --> {b:2, c:8}
 
 function removeOddValues(obj) {
   // TODO
-  return;
+  for(let key in obj){
+    if (typeof(obj[key]) === "number" && obj[key] %2 ===1){
+      delete obj[key]
+    }
+  }
+  return obj
 }

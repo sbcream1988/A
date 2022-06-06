@@ -16,5 +16,10 @@ console.log(obj); // ---> {b: 'remaining'}
 
 function removeNumberValues(obj) {
   // TODO
-  return;
+  for ( let value in obj){
+    if (typeof obj[value] === "number"){
+      delete obj[value]
+    }
+  }
+  return obj;
 }

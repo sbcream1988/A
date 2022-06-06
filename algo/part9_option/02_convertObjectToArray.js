@@ -14,5 +14,9 @@ console.log(output); // ["name", "age", "hasPets"]
 
 function getAllKeys(obj) {
   // TODO
-  return;
+  let arr = []
+  for (key in obj){
+    arr.push(key)
+  }
+  return arr;
 }

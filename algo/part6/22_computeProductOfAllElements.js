@@ -12,3 +12,12 @@ Notes:
 
 let output = computeSumOfAllElements([2, 5, 6]);
 console.log(output); // ---> 60
+
+
+function computeSumOfAllElements(arr){
+    let sum = 1
+    for (let i=0; i < arr.length; i++){
+        sum = sum * arr[i]
+    }
+    return sum
+}

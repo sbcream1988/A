@@ -5,5 +5,7 @@ Given an array of numbers, onlyEvenElements returns a new array of just the even
 */
 function onlyEvenElements(arr) {
   // TODO
+  arr=[]
+  
   return;
 }

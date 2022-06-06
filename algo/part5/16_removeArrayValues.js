@@ -13,3 +13,13 @@ let obj = {
 };
 removeArrayValues(obj);
 console.log(obj); // --> {b: 2}
+
+
+function removeArrayValues(obj){
+  for( let value in obj){
+    if (Array.isArray(obj[value])){
+      delete obj[value]
+    }
+  }
+  return obj
+}

@@ -21,5 +21,6 @@ console.log(output); // --> 'two'
 
 function findShortestWordAmongMixedElements(arr) {
   //TODO
+  
   return;
 }

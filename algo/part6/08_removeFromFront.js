@@ -13,6 +13,7 @@ Note:
 let output = removeFromFront([1, 2, 3]);
 console.log(output); // --> [2,3]
 function removeFromFront(array) {
-  // TODO
-  return;
+  // TODO3
+  array.shift()
+  return array
 }

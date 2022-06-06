@@ -15,5 +15,6 @@ console.log(output); // ---> [1,2,3]
 
 function addToBack(arr, element) {
   // TODO
-  return;
+  arr.push(element)
+  return arr
 }

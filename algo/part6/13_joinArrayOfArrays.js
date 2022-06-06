@@ -14,6 +14,7 @@ let output = joinArrayOfArrays([
 console.log(output); //--> [1, 4, true, false, 'x', 'y']
 
 function joinArrayOfArrays(arr) {
+  
   //TODO
   return;
 }
