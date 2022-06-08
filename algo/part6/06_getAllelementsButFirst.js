@@ -12,10 +12,15 @@ let output = getAllElementsButFirst(input);
 console.log(output); // --> [2,3,4]
 function getAllElementsButFirst(array) {
   // TODO
-  array.shift();
-  return array;
+  let newArray=array.slice(1);
+  // newArray.shift()
+  // console.log("newArray:",newArray)
+  // console.log("input:",input)
+
+  return newArray;
   }
 
+console.log(input)
 /*
 -MDN: Array.prototype.shift()
 shift() 메서드는 배열에서 첫 번째 요소를 제거하고, 제거된 요소를 반환합니다.

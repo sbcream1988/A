@@ -27,5 +27,7 @@ Array.isArray 를 이용하면 Note 의 몇 가지 조건을 한꺼번에 해결
 
 function getElementOfArrayProperty(obj, key, index) {
   // TODO
-  return;
-}
+    if (typeof obj[key] === 'object') {
+      return obj[key][index];
+    }
+  }

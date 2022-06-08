@@ -16,11 +16,33 @@ Note:
  만약 주어진 배열에 문자열이 있다면, 빈 문자열을 반환해야 합니다.
 */
 
+// reduce() 메서드는 배열의 각 요소에 대해 주어진 리듀서(reducer) 함수를 실행하고, 하나의 결과값을 반환합니다.
+
+//https://messycode.tistory.com/8
+
 let output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
 console.log(output); // --> 'two'
 
 function findShortestWordAmongMixedElements(arr) {
   //TODO
-  
-  return;
+  if (arr.length === 0) {
+    return ''
+  }
+
+  return arr.reduce((acc, cur) => {
+    if (typeof acc !== 'string') {
+      if (typeof cur === 'string') {
+        return cur
+      }
+      return ''
+    }
+
+    if (typeof cur === 'string') {
+      if (cur.length < acc.length) {
+        return cur
+      }
+      return acc
+    }
+    return acc
+  })
 }

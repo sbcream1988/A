@@ -10,6 +10,8 @@ Note
 만약 모든 요소와 일치한다면 ,빈 배열을 반환해야 합니다.
 - If an empty array is passed in, it should return an empty array
 만약 빈 배열이 줘진다면 , 빈 배열을 반환해야 합니다.
+
+반복 조건 일치
  */
 
 let output = removeElement([1, 2, 3, 2, 1], 2);
@@ -17,5 +19,11 @@ console.log(output); // --> [1,3,1]
 
 function removeElement(array, discarder) {
   //TODO
-  return;
+  let A = [];
+  for (i = 0; i < array.length; i++) {
+    if (array[i] !== discarder) {
+      A.push(array[i]);
+    }
+  }
+  return A
 }

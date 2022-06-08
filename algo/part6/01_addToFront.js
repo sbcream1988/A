@@ -10,12 +10,18 @@ NOTE
 - it should be the SA<E array, not a new array
 새로운 배열이 아닌 같은 배열을 리턴해야 합니다.
 */
-
-let output = addToFront([1, 2], 3);
+let input = [1, 2]
+let output = addToFront(input, 3);
 console.log(output); // ---> [3,1,2]
+console.log(input,"arr")
 
 function addToFront(arr, element) {
   // TODO
   arr.unshift(element)
   return arr
 }
+
+
+
+
+//mutable 함수. 변경가능 <=> immutable 함수;

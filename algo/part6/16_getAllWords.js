@@ -7,6 +7,8 @@ Given a sentence, "getAllWords" returns an array containing every word in the se
 
 Note:
  - If given an empty string , it should return an empty array
+
+ split " "
 */
 
 let output = getAllWords('Radagast the Brown');

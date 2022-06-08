@@ -24,5 +24,15 @@ console.log(output); // --> {a:1,c:3}
 
 function select(arr, obj) {
   // TODO
-  return;
+  let A = {};
+  for (let key in obj ) {
+    for (let i = 0; i < arr.length; i++ ) {
+      if (key === arr[i] ) {
+       A[key] = obj[key]
+      }
+
+    }
+
+  } 
+  return newObj;
 }

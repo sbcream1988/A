@@ -5,6 +5,10 @@ Write a function called "getAllElementsButNth"
 Given an array and an index, "getAllElementsButNth" returns an array with all the elements but the nth
 
 배열과 인덱스가 주어졌을때, "getAllElementsButNth" 함수는 해당 인덱스의 요소를 제외한 배열을 반환합니다
+
+for문, 조건문 push
+slice+slice concat
+
 */
 
 let output = getAllElementsButNth(['a', 'b', 'c'], 1);

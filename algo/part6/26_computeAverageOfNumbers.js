@@ -16,5 +16,8 @@ console.log(output); // --> 3
 
 function computeAverageOfNumbers(nums) {
   // TODO
-  return;
-}
+  let Num1 = word1.length;
+  let Num2 = word2.length;
+  let a = (Num1 + Num2) / 2;
+  return a;
+  }

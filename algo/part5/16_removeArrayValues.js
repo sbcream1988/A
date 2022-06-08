@@ -16,9 +16,9 @@ console.log(obj); // --> {b: 2}
 
 
 function removeArrayValues(obj){
-  for( let value in obj){
-    if (Array.isArray(obj[value])){
-      delete obj[value]
+  for( let key in obj){
+    if (Array.isArray(obj[key])){
+      delete obj[key]
     }
   }
   return obj

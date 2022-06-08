@@ -9,6 +9,8 @@ natch the given keeper element
 Note:
  - If no elements match, "keep" should return an empty array
  만약 아무것도 일치하지 않는다면, "keep" 함수는 빈 배열을 반환해야 합니다.
+
+ 고쳐야함( 빈배열확인)
 */
 
 let output = keep([1, 2, 3, 2, 1], 2);

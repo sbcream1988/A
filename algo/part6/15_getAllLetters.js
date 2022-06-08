@@ -9,6 +9,8 @@ NOTE
  - If given an empty string, it should return an empty array,
  만약 빈 문자열이 주어졌다면, 빈 배열을 반환해야 합니다.
  - 앞서 이와 동일한 문제를 for문을 이용해 풀었다면, 이번에는 배열 메소드를 써서 해결해봅시다.
+
+ split
 */
 
 let output = getAllLetters('Radagast');

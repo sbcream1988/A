@@ -15,6 +15,23 @@ console.log(outfindSmallestElementput); // --> 1
 
 function findSmallestElement(arr) {
   // TODO
-  
-  return;
+  if (arr.length === 0){
+    return " "
+  }
+  for (let i=0; i<arr.length; i++){
+
+  }
+  return 
 }
+
+// function findSmallestElement(arr) {
+  
+//   if(arr.length === 0) {
+//     return 0;
+//   } else {
+//     var smallestNum = arr.reduce(function(a,b) {
+//       return a < b ? a: b;
+//     });
+//     return smallestNum;
+//   }
+// }

@@ -16,9 +16,9 @@ console.log(obj); // ----> {age: 20}
 
 function removeStringValue(obj) {
   // TODO
-  for(let value in obj)
-  if (typeof obj[value] === "string"){
-    delete obj[value]
+  for(let key in obj)
+  if (typeof obj[key] === "string"){
+    delete obj[key]
   }
   return obj
 }
