@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Animated Popup Box with Html CSS & JS</title>
+    <link rel="stylesheet" type="text/css"  href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="content"></div>
+            <h2>Heading...</h2>
+            이것이 무엇인고 하니 박스와 다이아몬드를 만들어
+            클릭하면 나타났다 없어졌다하는 그런 박스를 만든것인가
+            아닌가를 모르겠는데
+        <div class="toggleBtn"></div>
+    </div>
+
+    <script>
+        let toggleBtn = document.querySelector('.toggleBtn');
+        let container = document.querySelector('.container');
+        toggleBtn.onclick = function(){
+            container.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #011029;
+}
+.box
+{
+    width: 800px;
+    margin: 40px auto 0;
+    padding: 40px;
+    background:  #052152;
+    box-sizing: border-box;
+}
+.box ul
+{
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid #020c1d
+}
+.box ul li
+{
+    list-style: none;
+}
+.box ul li .item
+{
+    position: relative;
+    padding: 30px 20px;
+}
+.box ul li .item:hover
+{
+    background: #041940;
+}
+.box ul li .item span
+{
+    padding: 4px 12px;
+    background: #007faf;
+    border-radius: 15px;
+    color: #fff;
+}
+.box ul li .item:hover span
+{
+    background: #e91e63;
+}
+.box ul li .item h3
+{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #007faf;
+}
+.box ul li .item p
+{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+}
