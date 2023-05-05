@@ -1,13 +1,22 @@
+
+* {
+color:red
+}
+
 #appbar {
   float: left;
   width: 1000px;
 }
+
 #main-logo {
   background-color: blue;
 }
+
 img {
   background-color: red;
 }
+
 .right {
   float: right;
 }
+
